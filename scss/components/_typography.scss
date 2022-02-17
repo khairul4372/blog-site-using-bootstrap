@@ -1,0 +1,47 @@
+@import "../custom";
+
+.display-2 {
+  margin-bottom: 1rem;
+  margin-top: 12rem;
+
+  &--intro {
+    display: inline-block;
+    font-weight: 700;
+    line-height: 108px;
+    font-size: 90px;
+    font-family: $font-secondary;
+    color: $primary !important;
+  }
+  &--description {
+    display: inline-block;
+    font-weight: 200;
+    line-height: 37.92px;
+    font-size: 24px;
+    font-family: $font-primary;
+    margin: 40px 0;
+  }
+}
+.hero-btn {
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: $primary;
+  color: $white;
+  border-radius: 8px;
+  font-family: $font-primary;
+  font-weight: 200;
+  font-size: 16px;
+  display: inline-block;
+
+  &:hover {
+    border: 1px solid $primary;
+    color: $primary;
+    background-color: $white;
+  }
+}
+.company-para {
+  padding-top: 100px;
+  color: $tertiary;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 30.91px;
+}
