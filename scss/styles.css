@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@use "./custom" as *;
+@use "components/button";
+@use "components/mixin";
+@use "components/typography";
+.menu {
+  background-color: #e5e5e5;
+}
+
+.menu i {
+  padding-left: 100px;
+}
+
+.menu li {
+  padding: 0 0.7rem;
+}
+
+.menu li a {
+  color: #2d2f30 !important;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+@media (max-width: 700px) {
+  .menu i {
+    padding-left: 15px;
+  }
+}
+
+@use "./sections/intro-section";
+@use "./sections/services";
+@use "./sections/counts";
+@use "./sections/testimonials";
+@use "./sections/faq";
+@use "./sections/footer";
+/*# sourceMappingURL=styles.css.map */

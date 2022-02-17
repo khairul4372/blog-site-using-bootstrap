@@ -1,0 +1,26 @@
+@import "../custom";
+
+.menu {
+  background-color: #e5e5e5;
+
+  i {
+    padding-left: 100px;
+  }
+
+  li {
+    padding: 0 0.7rem;
+
+    a {
+      color: $menu-text-color !important;
+      font-family: $text-font;
+      text-transform: capitalize;
+      font-weight: 400;
+      line-height: 23px;
+    }
+  }
+  @media (max-width: 700px) {
+    i {
+      padding-left: 15px;
+    }
+  }
+}

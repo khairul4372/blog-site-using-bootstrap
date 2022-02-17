@@ -1,0 +1,14 @@
+@use "./custom" as *;
+
+// import components
+@use "components/button";
+@use "components/mixin";
+@use "components/typography";
+// import sections
+@import "./sections/navbar";
+@use "./sections/intro-section";
+@use "./sections/services";
+@use "./sections/counts";
+@use "./sections/testimonials";
+@use "./sections/faq";
+@use "./sections/footer";
