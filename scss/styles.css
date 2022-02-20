@@ -382,11 +382,21 @@
   color: #eeeff4;
 }
 
-.footer-bottom {
+.copyright {
   background-color: #05546d;
+  padding: 20px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 8vh;
 }
 
-.footer-bottom p {
+@media (max-width: 769px) {
+  .copyright {
+    height: 100px;
+  }
+}
+
+.copyright p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -394,7 +404,7 @@
   color: #d9dbe1;
 }
 
-.footer-bottom i {
+.copyright i {
   padding-left: 6px;
   color: #fff;
 }
