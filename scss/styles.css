@@ -303,4 +303,49 @@
 .testimonials .carousel-control-next-icon {
   background-image: url("https://apufpel.com.br/assets/img/seta_ult.png");
 }
+
+.faq h2 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #2d2f30;
+  margin: 50px 0 30px 0;
+}
+
+.faq p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4f4f4f;
+}
+
+.faq a {
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #094b72;
+  color: #fff;
+  border-radius: 8px;
+  font-family: "FontAwesome";
+  font-weight: 400;
+  font-size: 16px;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 20px 0;
+}
+
+.faq a::before {
+  content: "\f095";
+  padding-right: 10px;
+}
+
+.faq a:hover {
+  border: 1px solid #094b72;
+  color: #094b72;
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 /*# sourceMappingURL=styles.css.map */
