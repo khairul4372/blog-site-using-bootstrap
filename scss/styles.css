@@ -348,4 +348,54 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.footer {
+  background-color: #0f6e8c;
+}
+
+.footer img {
+  margin-top: 50px;
+  color: #fff;
+}
+
+.footer-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px;
+}
+
+.footer-right h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #f4f5f7;
+  padding-bottom: 30px;
+}
+
+.footer-right p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #eeeff4;
+}
+
+.footer-bottom {
+  background-color: #05546d;
+}
+
+.footer-bottom p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #d9dbe1;
+}
+
+.footer-bottom i {
+  padding-left: 6px;
+  color: #fff;
+}
 /*# sourceMappingURL=styles.css.map */
