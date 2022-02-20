@@ -1,0 +1,48 @@
+.services {
+  background-color: #f2fcff;
+  padding: 80px 0;
+
+  *--left {
+    align-content: center;
+  }
+
+  h2 {
+    font-family: $font-secondary;
+    font-size: 48px;
+    color: $menu-text-color;
+    line-height: 63.98px;
+    font-weight: 700;
+    padding-top: 80px;
+    padding-bottom: 10px;
+  }
+  p {
+    font-family: $font-primary;
+    font-size: 20px;
+    color: $tertiary;
+    line-height: 36px;
+    font-weight: 400;
+  }
+  .item-container {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    h4 {
+      font-family: $font-secondary;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 22px;
+      color: #363940;
+      padding: 10px 0;
+    }
+    p {
+      font-family: $font-tertiary;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: $tertiary;
+    }
+  }
+}
