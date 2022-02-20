@@ -140,12 +140,14 @@
 }
 
 .services .item-container {
-  background-color: white;
+  background-color: #fcfcfc;
   margin: 20px;
   padding: 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 8px;
+  -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05);
 }
 
 .services .item-container h4 {
@@ -163,5 +165,45 @@
   font-size: 14px;
   line-height: 24px;
   color: #8b8c8c;
+}
+
+.count {
+  background-image: url(../../assets/images/BG.png);
+  text-align: center;
+  padding: 80px 0;
+}
+
+.count h2 {
+  font-family: "Playfair Display";
+  font-weight: 900;
+  font-size: 48px;
+  color: #fff;
+  line-height: 64px;
+}
+
+.count .left {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.count .item-border {
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.count p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  line-height: 32px;
+}
+
+.count h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  color: #fff;
+  line-height: 64px;
 }
 /*# sourceMappingURL=styles.css.map */

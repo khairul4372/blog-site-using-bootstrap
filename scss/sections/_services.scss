@@ -23,11 +23,12 @@
     font-weight: 400;
   }
   .item-container {
-    background-color: white;
+    background-color: #fcfcfc;
     margin: 20px;
     padding: 20px;
     box-sizing: border-box;
     border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05);
 
     h4 {
       font-family: $font-secondary;
