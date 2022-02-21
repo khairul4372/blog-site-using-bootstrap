@@ -13,7 +13,6 @@
 
 .display-2 {
   margin-bottom: 1rem;
-  margin-top: 12rem;
 }
 
 .display-2--intro {
@@ -99,15 +98,32 @@
 
 .intro-section-area {
   background-color: #f9f8f9;
+  padding-top: 3rem;
 }
 
-.intro-section {
-  background-image: url("../../assets/images/creating-a-brand-2mMhaoBGjCs-unsplash-removebg-preview 1.png");
-  background-position: right;
-  background-repeat: no-repeat;
+.intro-section-area .intro-section {
+  padding-top: 4rem;
 }
 
-.company-logo {
+.intro-section-area .intro-section .intros-right {
+  position: relative;
+}
+
+.intro-section-area .intro-section .intros-right img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  height: 100%;
+}
+
+@media (max-width: 769px) {
+  .intro-section-area .intro-section .intros-right img {
+    position: relative;
+  }
+}
+
+.intro-section-area .intro-section .company-logo {
   padding: 20px 0 40px 0;
 }
 
