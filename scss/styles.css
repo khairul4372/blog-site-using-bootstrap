@@ -405,7 +405,10 @@
 }
 
 .copyright i {
-  padding-left: 6px;
+  margin-left: 10px;
   color: #fff;
+  background-color: #317386;
+  border-radius: 50px;
+  padding: 6px;
 }
 /*# sourceMappingURL=styles.css.map */
