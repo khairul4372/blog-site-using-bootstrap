@@ -10,6 +10,10 @@
     display: flex;
     padding: 40px;
 
+    @media (max-width: 769px) {
+      flex-direction: column;
+    }
+
     h4 {
       font-family: $font-primary;
       font-weight: 500;
